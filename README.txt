@@ -77,7 +77,21 @@ The Game 8th commit 9/6/2015 5:30AM
 Instantiated location object in the SuperAdventure.cs added some sample values. Created default constructors for the Location & Quest classes. Ran the solution & checked that it built. Commited & updated README.txt
 
 
-The Game 9th commit 9/6/2015  
+The Game 9th commit 9/6/2015  6:00AM
 
 //Summary
+
+Modified the following classes (added default constructors) That pass paramaters at instantiation to thier parent (super) classes. Modified the SuperAdventure.cs to implement the changes. Commited & updated the README.txt
+-HealingPotion (child)
+-Weapon (child) 
+-Player (child)
+-Monster (child)
+-LivingCreature (super)
+-Item (super)
+
+
+The Game 10th commit 9/6/2015  
+
+//Summary
+
 
