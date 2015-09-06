@@ -41,3 +41,17 @@ Added some default values to the properties  & binded the data to the appropriat
 **deleted the blank button from the form
 Ran the program & validated the values were displaying correctly
 Commited & updated the README.txt
+
+
+The Game 5th commit 9/6/2015 4:33AM (Grinding it out)
+
+Added 6 classes to the Engine. These classes will contain the business logic for the SuperAdventure Solution
+-HealingPotion
+-Item
+-Location
+-Monster
+-Quest
+-Weapon
+Commited & updated the README.txt
+
+The Game 6th commit 9/6/2015 
