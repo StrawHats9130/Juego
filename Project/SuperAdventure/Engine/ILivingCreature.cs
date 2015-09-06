@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class HealingPotion : Item
+    interface ILivingCreature
     {
-        public int AmountToHeal { get; set; }
+        int CurrentHitPoints { get; set; }
+        int MaximumHitPoints { get; set; }
     }
 }
