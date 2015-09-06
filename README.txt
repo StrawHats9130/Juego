@@ -97,7 +97,12 @@ The Game 10th commit 9/6/2015  6:26AM
 Added custom data types to the Location & Quest classes. Modified the constructors to accept the new data types and null values. Tested the modifications in the SuperAdventure.cs. Built solution. Commited & updated the README.txt
 
 
-The Game 11th commit 9/6/2015  6:29AM
+The Game 11th commit 9/6/2015  7:05AM
 
 //Summary
+
+Added 4 new classes (objects) to the Engine project. QuestCompletionItem, PlayerQuest, LootItem, InventoryItem. Properties to the new classes. Added List collections to the Monster and Player classes to take in instances of LootItem, InventoryItem, and PlayerQuest. Modified Player and Monster classes by adding empty Lists to body of constructor. Commited & updated README.txt
+
+
+The Game 12th commit 
 
