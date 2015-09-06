@@ -70,7 +70,14 @@ The Game 7th commit 9/6/2015  5:11AM
 Added ILivingCreature interface to the Engine project. Added LivingCreature class which implements the interface. Set LivingCreature as the Base classe for Monster & Player classes. Removed duplicate properties. Set the Item class as the Super class for the Weapon & HealingPotion classes. Removed duplicate properties. Commited & updated the README.txt
 
 
-The Game 8th commit 9/6/2015
+The Game 8th commit 9/6/2015 5:30AM
+
+//Summary
+
+Instantiated location object in the SuperAdventure.cs added some sample values. Created default constructors for the Location & Quest classes. Ran the solution & checked that it built. Commited & updated README.txt
+
+
+The Game 9th commit 9/6/2015  
 
 //Summary
 
