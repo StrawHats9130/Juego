@@ -2,7 +2,7 @@
 
  The Game 1st commit 9/6/2015 3:31AM
 
-// Summary
+//Summary
 
 Added a winform Solution to VS called SuperAdventure (GUI).
 Added a Project for the logic called Engine (Business Logic).
@@ -23,9 +23,21 @@ Commited & updated the README.txt
 
 The Game 3rd commit 9/6/2015 3:58AM
 
-//
-Summary
+//Summary
 
 Added a Player class to the Engine Project
 Added basic properites for the Player object
-Commited 7 Updated the README.txt
+Commited & Updated the README.txt
+
+
+The Game 4th commit 9/6/2015 4:20AM (shibbie, moment of silence d[*^*]b)
+
+//Summary
+
+Instantiated a Player object in the SuperAdventure Project
+Added some default values to the properties  & binded the data to the appropriate labels.
+**deleted the test button Click Event from the SuperAdventure.cs
+**deleted initialization code from the SuperAdventure.Designer.cs
+**deleted the blank button from the form
+Ran the program & validated the values were displaying correctly
+Commited & updated the README.txt
