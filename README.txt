@@ -90,8 +90,14 @@ Modified the following classes (added default constructors) That pass paramaters
 -Item (super)
 
 
-The Game 10th commit 9/6/2015  
+The Game 10th commit 9/6/2015  6:26AM 
 
 //Summary
 
+Added custom data types to the Location & Quest classes. Modified the constructors to accept the new data types and null values. Tested the modifications in the SuperAdventure.cs. Built solution. Commited & updated the README.txt
+
+
+The Game 11th commit 9/6/2015  6:29AM
+
+//Summary
 
