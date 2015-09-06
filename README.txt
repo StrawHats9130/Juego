@@ -1,6 +1,4 @@
-
-
- The Game 1st commit 9/6/2015 3:31AM
+The Game 1st commit 9/6/2015 3:31AM
 
 //Summary
 
@@ -65,4 +63,14 @@ Added the properites for the 6 recently added classes in the Engine Project. Add
 commited & updated the README.txt
 
 
-The Game 7th commit 9/6/2015  
+The Game 7th commit 9/6/2015  5:11AM
+
+//Summary
+
+Added ILivingCreature interface to the Engine project. Added LivingCreature class which implements the interface. Set LivingCreature as the Base classe for Monster & Player classes. Removed duplicate properties. Set the Item class as the Super class for the Weapon & HealingPotion classes. Removed duplicate properties. Commited & updated the README.txt
+
+
+The Game 8th commit 9/6/2015
+
+//Summary
+
