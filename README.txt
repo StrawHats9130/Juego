@@ -45,6 +45,8 @@ Commited & updated the README.txt
 
 The Game 5th commit 9/6/2015 4:33AM (Grinding it out)
 
+//Summary
+
 Added 6 classes to the Engine. These classes will contain the business logic for the SuperAdventure Solution
 -HealingPotion
 -Item
@@ -54,4 +56,13 @@ Added 6 classes to the Engine. These classes will contain the business logic for
 -Weapon
 Commited & updated the README.txt
 
-The Game 6th commit 9/6/2015 
+
+The Game 6th commit 9/6/2015 4:51AM
+
+//Summary
+
+Added the properites for the 6 recently added classes in the Engine Project. Added public accesability modifier to all of them 
+commited & updated the README.txt
+
+
+The Game 7th commit 9/6/2015  
