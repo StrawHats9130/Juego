@@ -11,5 +11,17 @@ namespace Engine
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
+
+       public Player(int currentHitPoints,
+           int maximumDamage,
+           int gold,
+           int experiencePoints,
+           int level
+           ) : base (currentHitPoints,maximumDamage)
+       {
+           Gold = gold;
+           ExperiencePoints = experiencePoints;
+           Level = level;
+       }
     }
 }
