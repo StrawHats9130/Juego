@@ -1,0 +1,5 @@
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\Engine\bin\Debug\Engine.dll
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\Engine\bin\Debug\Engine.pdb
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\Engine\obj\Debug\Engine.dll
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\Engine\obj\Debug\Engine.pdb

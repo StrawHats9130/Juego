@@ -1,1 +1,11 @@
 C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\bin\Debug\SuperAdventure.exe.config
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\bin\Debug\SuperAdventure.exe
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\bin\Debug\SuperAdventure.pdb
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\bin\Debug\Engine.dll
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\bin\Debug\Engine.pdb
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.Properties.Resources.resources
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.SuperAdventure.resources
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.csproj.GenerateResource.Cache
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.exe
+C:\Users\Developer\Desktop\El Juego\Project\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.pdb
