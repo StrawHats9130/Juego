@@ -23,7 +23,7 @@ namespace Engine
         public const int ItemIdHealingPotion = 7;
         public const int ItemIdSpiderFang = 8;
         public const int ItemIdSpiderSilk = 9;
-        public const int ItemIdAdventurePass = 18;
+        public const int ItemIdAdventurePass = 10;
 
         public const int MonsterIdRat = 1;
         public const int MonsterIdSnake = 2;
@@ -43,10 +43,11 @@ namespace Engine
         public const int LocationIdSpiderField = 9;
 
 
+
         static World()
         {
             PopulateItems();
-            //PopulateMonsters();
+            PopulateMonsters();
             //PopulateQuests();
             //PopulateLocations();
         }
@@ -65,6 +66,39 @@ namespace Engine
             Items.Add(new Item(ItemIdAdventurePass, "Adventure pass", "Adventure passes"));
 
         }
+
+        private static void PopulateMonsters()
+        {
+            Monster rat = new Monster(MonsterIdRat, "Rat", 5, 3, 10, 3, 3);
+            rat.LootTable.Add(new LootItem(ItemById(ItemIdRatTail), 75, false));
+            rat.LootTable.Add(new LootItem(ItemById(ItemIdPieceOfFur), 75, true));
+
+            Monster snake = new Monster(MonsterIdSnake, "Snake", 5, 3, 10, 3, 3);
+            snake.LootTable.Add(new LootItem(ItemById(ItemIdSnakeFang), 75, false));
+            snake.LootTable.Add(new LootItem(ItemById(ItemIdSnakeSkin), 75, true));
+
+            Monster giantSpider = new Monster(MonsterIdGiantSpider, "Giant spider", 20, 5, 40, 10, 10);
+            giantSpider.LootTable.Add(new LootItem(ItemById(ItemIdSpiderFang), 75, true));
+            giantSpider.LootTable.Add(new LootItem(ItemById(ItemIdSpiderSilk), 25, false));
+
+            Monsters.Add(rat);
+            Monsters.Add(snake);
+            Monsters.Add(giantSpider);
+        }
+
+
+        public static Item ItemById(int id)
+        {
+            foreach (Item item in Items)
+            {
+                if (item.ID == id)
+                {
+                    return item;
+                }
+            }
+            return null;
+        }
+
 
 
     }
