@@ -11,11 +11,15 @@ namespace Engine
 {
     public static class World
     {
+        #region //Static List Variables
         public static readonly List<Item> Items = new List<Item>();
         public static readonly List<Monster> Monsters = new List<Monster>();
         public static readonly List<Quest> Quests = new List<Quest>();
         public static readonly List<Location> Locations = new List<Location>();
+        #endregion
 
+        #region //Constants
+        //int Id's for the various objects in game
         public const int ItemIdRustySword = 1;
         public const int ItemIdRatTail = 2;
         public const int ItemIdPieceOfFur = 3;
@@ -43,17 +47,19 @@ namespace Engine
         public const int LocationIdFarmField = 7;
         public const int LocationIdBridge = 8;
         public const int LocationIdSpiderField = 9;
+        #endregion
 
-
-
+        #region //Constructor
         static World()
         {
             PopulateItems();
             PopulateMonsters();
             PopulateQuests();
-            //PopulateLocations();
+            PopulateLocations();
         }
+        #endregion
 
+        #region //List population methods
         private static void PopulateItems()
         {
             Items.Add(new Weapon(ItemIdRustySword,"Rusty Sword","Rusty Swords", 0, 5));
@@ -170,6 +176,7 @@ namespace Engine
             spiderField.LocationToWest = bridge;
 
             //Add the locations to the static list
+            //todo use object initilaization syntax
             Locations.Add(home);
             Locations.Add(townSquare);
             Locations.Add(guardPost);
@@ -179,13 +186,10 @@ namespace Engine
             Locations.Add(farmersField);
             Locations.Add(bridge);
             Locations.Add(spiderField);
-
-
-
-
         }
+        #endregion
 
-
+        #region //Wrapper methods
         public static Item ItemById(int id)
         {
             foreach (Item item in Items)
@@ -221,6 +225,19 @@ namespace Engine
             }
             return null;
         }
+
+        public static Location LocationById(int id)
+        {
+            foreach (Location location in Locations)
+            {
+                if (location.ID == id)
+                {
+                    return location;
+                }
+            }
+            return null;
+        }
+        #endregion
 
     }
 }
