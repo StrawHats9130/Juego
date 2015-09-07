@@ -111,9 +111,11 @@ The Game 12th commit 9/7/2015  12:32AM
 Added static class called 'World' to Engine project. Added 4 const static readonly Lists of Type Item, Monster, Quest, & Location. Added 24 const ints (10 Item Id's, 3 Monster Id's, 2 Quest Id's, 9 Location Id's. Added default constructor to 'World' class which takes no paramaters, & has 4 methods in the body. PopulateItems(), PopulateMonsters(), PopulateQuests(), PopulateLocations(). Completed PopulateItems() which takes in zero parameters & populates our static readonly 'List<Item> Items' with 7 Items, 2 Weapons, & 1 HealingPotion. commited & updatfed the README.txt
 
 
-The Game 13th commit 9/7/2015   
+The Game 13th commit 9/7/2015   1:27AM
 
 //Summary
+
+Added PopulateMonsters() to World.cs which returns void & initalizes 3 Monster objects ("rat", "snake", "giant spider"). Each monster has a LootTable (List <LootItem>) with 2 items per monster. Added a static ItemByID() which return an Item if the paramater passed in is == to one of the public const item vatiables declared in the beginning of the 'World.cs' else it returns null. Commited & updated the README.txt
 
 
 
