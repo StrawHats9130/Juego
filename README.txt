@@ -108,7 +108,7 @@ The Game 12th commit 9/7/2015  12:32AM
 
 //Summary
 
-Added static class called 'World' to Engine project. Added 4 const static readonly Lists of Type Item, Monster, Quest, & Location. Added 24 const ints (10 Item Id's, 3 Monster Id's, 2 Quest Id's, 9 Location Id's. Added default constructor to 'World' class which takes no paramaters, & has 4 methods in the body. PopulateItems(), PopulateMonsters(), PopulateQuests(), PopulateLocations(). Completed PopulateItems() which takes in zero parameters & populates our static readonly 'List<Item> Items' with 7 Items, 2 Weapons, & 1 HealingPotion. commited & updatfed the README.txt
+Added static class called 'World' to Engine project. Added 4 const static readonly Lists of Type Item, Monster, Quest, & Location. Added 24 const ints (10 Item Id's, 3 Monster Id's, 2 Quest Id's, 9 Location Id's. Added default constructor to 'World' class which takes no paramaters, & has 4 methods in the body. PopulateItems(), PopulateMonsters(), PopulateQuests(), PopulateLocations(). Completed PopulateItems() which takes in zero parameters & populates our static readonly 'List<Item> Items' with 7 Items, 2 Weapons, & 1 HealingPotion. Commited & updatfed the README.txt
 
 
 The Game 13th commit 9/7/2015   1:27AM
@@ -125,8 +125,16 @@ The Game 14th commit 9/7/2015  2:00AM
 Added PopulateQuests() to World.cs which returns void & initalizes 2 Quest objects / data types (clearAlchemistGarden, clearFarmersField). Each quest has a QuestCompletion property which is a List<QuestCompletionItem>. Items are Added to the list by calling the ItemByID method which returns an Item if the item is ==  to one of the item (int) variables declared int the beginning of the 'World.cs' else it returns null. Uncommented the PopulateQuests() in the body of the World constructor. Built the solution. Commited & updated the README.txt
 
 
-The Game 15th commit 9/7/2015 
+The Game 15th commit 9/7/2015 3:35AM
 
 //Summary
 
-The Game 15th commit
+Added implemantation details for the 4th method PopulateLocations(). Initalized 9 locations and assigned their default values. Linked loctions together (explicitly defining thier N,S,E,W relationships). Added two static methods 'MonsterById' & 'QuestById' that mirror the ItemById(). Both accept an int id and if the id passed in is == to one of the monster or quest id variables declared in the beginning of the World.cs a MOnster or Quest object is returned (respectivly). Added each location to the Location collection. Uncommented the PopulateLocations() in the body of the World constructor, built project successfully. Commited & updated the README.txt
+
+
+The Game 16th commit 9/7/2015
+
+//Summary
+
+
+
