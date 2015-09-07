@@ -115,7 +115,18 @@ The Game 13th commit 9/7/2015   1:27AM
 
 //Summary
 
-Added PopulateMonsters() to World.cs which returns void & initalizes 3 Monster objects ("rat", "snake", "giant spider"). Each monster has a LootTable (List <LootItem>) with 2 items per monster. Added a static ItemByID() which return an Item if the paramater passed in is == to one of the public const item vatiables declared in the beginning of the 'World.cs' else it returns null. Commited & updated the README.txt
+Added PopulateMonsters() to World.cs which returns void & initalizes 3 Monster objects ("rat", "snake", "giant spider"). Each monster has a LootTable (List <LootItem>) with 2 items per monster. Added a static ItemByID() which return an Item if the paramater passed in is == to one of the public const item variables (int) declared in the beginning of the 'World.cs' else it returns null. Commited & updated the README.txt
 
 
+The Game 14th commit 9/7/2015  2:00AM
 
+//Summary
+
+Added PopulateQuests() to World.cs which returns void & initalizes 2 Quest objects / data types (clearAlchemistGarden, clearFarmersField). Each quest has a QuestCompletion property which is a List<QuestCompletionItem>. Items are Added to the list by calling the ItemByID method which returns an Item if the item is ==  to one of the item (int) variables declared int the beginning of the 'World.cs' else it returns null. Uncommented the PopulateQuests() in the body of the World constructor. Built the solution. Commited & updated the README.txt
+
+
+The Game 15th commit 9/7/2015 
+
+//Summary
+
+The Game 15th commit
