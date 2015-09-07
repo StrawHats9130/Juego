@@ -104,5 +104,16 @@ The Game 11th commit 9/6/2015  7:05AM
 Added 4 new classes (objects) to the Engine project. QuestCompletionItem, PlayerQuest, LootItem, InventoryItem. Properties to the new classes. Added List collections to the Monster and Player classes to take in instances of LootItem, InventoryItem, and PlayerQuest. Modified Player and Monster classes by adding empty Lists to body of constructor. **note it was necessary to specifiy a default value for the list (empty) in the body since a List unlike the primative data types has no default value.Commited & updated README.txt
 
 
-The Game 12th commit 9/6/2015 12
+The Game 12th commit 9/7/2015  12:32AM
+
+//Summary
+
+Added static class called 'World' to Engine project. Added 4 const static readonly Lists of Type Item, Monster, Quest, & Location. Added 24 const ints (10 Item Id's, 3 Monster Id's, 2 Quest Id's, 9 Location Id's. Added default constructor to 'World' class which takes no paramaters, & has 4 methods in the body. PopulateItems(), PopulateMonsters(), PopulateQuests(), PopulateLocations(). Completed PopulateItems() which takes in zero parameters & populates our static readonly 'List<Item> Items' with 7 Items, 2 Weapons, & 1 HealingPotion. commited & updatfed the README.txt
+
+
+The Game 13th commit 9/7/2015   
+
+//Summary
+
+
 
