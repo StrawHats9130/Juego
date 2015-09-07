@@ -101,8 +101,8 @@ The Game 11th commit 9/6/2015  7:05AM
 
 //Summary
 
-Added 4 new classes (objects) to the Engine project. QuestCompletionItem, PlayerQuest, LootItem, InventoryItem. Properties to the new classes. Added List collections to the Monster and Player classes to take in instances of LootItem, InventoryItem, and PlayerQuest. Modified Player and Monster classes by adding empty Lists to body of constructor. Commited & updated README.txt
+Added 4 new classes (objects) to the Engine project. QuestCompletionItem, PlayerQuest, LootItem, InventoryItem. Properties to the new classes. Added List collections to the Monster and Player classes to take in instances of LootItem, InventoryItem, and PlayerQuest. Modified Player and Monster classes by adding empty Lists to body of constructor. **note it was necessary to specifiy a default value for the list (empty) in the body since a List unlike the primative data types has no default value.Commited & updated README.txt
 
 
-The Game 12th commit 
+The Game 12th commit 9/6/2015 12
 
