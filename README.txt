@@ -138,6 +138,11 @@ The Game 16th commit 9/7/2015 4:08PM
 
 Updated the UI added the following controls 1 Lable, 2 ComboBoxes, 6 Button controls, 2 RichTextBoxes, 2 DataGridViews. Changed some of the control names and locations on the UI. Built the solution. Commited & updated the README.txt
 
-The Game 17th commit 9/7/2015 9:50PM
+
+The Game 17th commit 9/7/2015 9:50PM - 9/8/2015  10:49AM
+
+//Summary
+
+Created button events for each button control in the UI, added a WorkBench class to the project with a couple functions. Learned that typically function refers to Methods that return no value & method refers to actions that return a value (not a hard fast rule just something to be aware of). The WorkBench class serves no real purpose other than to display a working knowledge of scope & variable lifetime. Commited & updated the README.txt
 
 
