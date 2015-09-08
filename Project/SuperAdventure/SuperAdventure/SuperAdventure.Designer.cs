@@ -158,6 +158,7 @@
             this.btnUseWeapon.TabIndex = 11;
             this.btnUseWeapon.Text = "button1";
             this.btnUseWeapon.UseVisualStyleBackColor = true;
+            this.btnUseWeapon.Click += new System.EventHandler(this.btnUseWeapon_Click);
             // 
             // btnUsePotion
             // 
@@ -167,6 +168,7 @@
             this.btnUsePotion.TabIndex = 12;
             this.btnUsePotion.Text = "button2";
             this.btnUsePotion.UseVisualStyleBackColor = true;
+            this.btnUsePotion.Click += new System.EventHandler(this.btnUsePotion_Click);
             // 
             // btnNorth
             // 
@@ -176,6 +178,7 @@
             this.btnNorth.TabIndex = 13;
             this.btnNorth.Text = "button3";
             this.btnNorth.UseVisualStyleBackColor = true;
+            this.btnNorth.Click += new System.EventHandler(this.btnNorth_Click);
             // 
             // btnEast
             // 
@@ -185,6 +188,7 @@
             this.btnEast.TabIndex = 14;
             this.btnEast.Text = "button4";
             this.btnEast.UseVisualStyleBackColor = true;
+            this.btnEast.Click += new System.EventHandler(this.btnEast_Click);
             // 
             // btnSouth
             // 
@@ -194,6 +198,7 @@
             this.btnSouth.TabIndex = 15;
             this.btnSouth.Text = "button5";
             this.btnSouth.UseVisualStyleBackColor = true;
+            this.btnSouth.Click += new System.EventHandler(this.btnSouth_Click);
             // 
             // btnWest
             // 
@@ -203,6 +208,7 @@
             this.btnWest.TabIndex = 16;
             this.btnWest.Text = "button6";
             this.btnWest.UseVisualStyleBackColor = true;
+            this.btnWest.Click += new System.EventHandler(this.btnWest_Click);
             // 
             // rtbLocation
             // 
