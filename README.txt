@@ -146,3 +146,11 @@ The Game 17th commit 9/7/2015 9:50PM - 9/8/2015  10:49AM
 Created button events for each button control in the UI, added a WorkBench class to the project with a couple functions. Learned that typically function refers to Methods that return no value & method refers to actions that return a value (not a hard fast rule just something to be aware of). The WorkBench class serves no real purpose other than to display a working knowledge of scope & variable lifetime. Commited & updated the README.txt
 
 
+
+The Game 18th commit 9/8/2015 11:37AM
+
+//Summary
+
+Added two if statements in the WorkBook.cs. One simple (single condition to be evaluated) one complex  (multiple conditions to be evaluated) The order of presidence. Conditions are evaluated in order from the innermost (parentheses) to the outermost. With || either condition can evaluate true in order for the statement as a whole to evaluate true. With && both conditions must evaluate true in order for the statement as a whole to evaluate true.
+
+

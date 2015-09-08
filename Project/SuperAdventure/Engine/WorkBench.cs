@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -70,6 +71,55 @@ namespace Engine
                return true;
            }
            return false;
+       }
+
+       public int ComputePlayerLevel(int experiencePoints)
+       {
+           if (experiencePoints < 100)
+           {
+               return 1; //Player is level 1
+           }
+           if (experiencePoints < 250)
+           {
+               return 2; //Player is level 2
+           }
+           if (experiencePoints < 300)
+           {
+               return 3; //Player is level 3
+           }
+           if (experiencePoints < 1000)
+           {
+               return 4; //Player is level 4
+           }
+           return 5; //Player is level 5 (ie maximum level)
+       }
+
+
+       public int ComputePlayerLevelSwitch(int experiencePoints)
+       {
+           switch (experiencePoints)
+           {
+               case 1:
+                   Console.WriteLine("You are currently at level 1");
+                   return 1;
+               case 2:
+                   Console.WriteLine("You are currently at level 2");
+                   return 2;
+               case 3:
+                   Console.WriteLine("You are currently at level 3");
+                   return 3;
+               case 4:
+                   Console.WriteLine("You are currently at level 4");
+                   return 4;
+               case 5:
+                   Console.WriteLine("You are currently at level 5"+
+                                     "\nYou have maxed out for this land");
+                   return 5;
+               default:
+                   Console.WriteLine("You are currently at level 0"+
+                       "you need to complete objectives in order to raise your level");
+                   return 0;
+           }
        }
 
     }
