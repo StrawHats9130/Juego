@@ -1,4 +1,4 @@
-The Game 1st commit 9/6/2015 3:31AM
+The Game 1st update 9/6/2015 3:31AM
 
 //Summary
 
@@ -9,7 +9,7 @@ Added SuperAdventure Project to git repo
 Commited & Added README.txt
 
 
-The Game 2nd commit 9/6/2015 3:40AM
+The Game 2nd update 9/6/2015 3:40AM
 
 //Summary
 
@@ -19,7 +19,7 @@ Tested the program thus far
 Commited & updated the README.txt 
 
 
-The Game 3rd commit 9/6/2015 3:58AM
+The Game 3rd update 9/6/2015 3:58AM
 
 //Summary
 
@@ -28,7 +28,7 @@ Added basic properites for the Player object
 Commited & Updated the README.txt
 
 
-The Game 4th commit 9/6/2015 4:20AM (shibbie, moment of silence d[*^*]b)
+The Game 4th update 9/6/2015 4:20AM (shibbie, moment of silence d[*^*]b)
 
 //Summary
 
@@ -41,7 +41,7 @@ Ran the program & validated the values were displaying correctly
 Commited & updated the README.txt
 
 
-The Game 5th commit 9/6/2015 4:33AM (Grinding it out)
+The Game 5th update 9/6/2015 4:33AM (Grinding it out)
 
 //Summary
 
@@ -55,7 +55,7 @@ Added 6 classes to the Engine. These classes will contain the business logic for
 Commited & updated the README.txt
 
 
-The Game 6th commit 9/6/2015 4:51AM
+The Game 6th update 9/6/2015 4:51AM
 
 //Summary
 
@@ -63,21 +63,21 @@ Added the properites for the 6 recently added classes in the Engine Project. Add
 commited & updated the README.txt
 
 
-The Game 7th commit 9/6/2015  5:11AM
+The Game 7th update 9/6/2015  5:11AM
 
 //Summary
 
 Added ILivingCreature interface to the Engine project. Added LivingCreature class which implements the interface. Set LivingCreature as the Base classe for Monster & Player classes. Removed duplicate properties. Set the Item class as the Super class for the Weapon & HealingPotion classes. Removed duplicate properties. Commited & updated the README.txt
 
 
-The Game 8th commit 9/6/2015 5:30AM
+The Game 8th update 9/6/2015 5:30AM
 
 //Summary
 
 Instantiated location object in the SuperAdventure.cs added some sample values. Created default constructors for the Location & Quest classes. Ran the solution & checked that it built. Commited & updated README.txt
 
 
-The Game 9th commit 9/6/2015  6:00AM
+The Game 9th update 9/6/2015  6:00AM
 
 //Summary
 
@@ -90,56 +90,56 @@ Modified the following classes (added default constructors) That pass paramaters
 -Item (super)
 
 
-The Game 10th commit 9/6/2015  6:26AM 
+The Game 10th update 9/6/2015  6:26AM 
 
 //Summary
 
 Added custom data types to the Location & Quest classes. Modified the constructors to accept the new data types and null values. Tested the modifications in the SuperAdventure.cs. Built solution. Commited & updated the README.txt
 
 
-The Game 11th commit 9/6/2015  7:05AM
+The Game 11th update 9/6/2015  7:05AM
 
 //Summary
 
 Added 4 new classes (objects) to the Engine project. QuestCompletionItem, PlayerQuest, LootItem, InventoryItem. Properties to the new classes. Added List collections to the Monster and Player classes to take in instances of LootItem, InventoryItem, and PlayerQuest. Modified Player and Monster classes by adding empty Lists to body of constructor. **note it was necessary to specifiy a default value for the list (empty) in the body since a List unlike the primative data types has no default value.Commited & updated README.txt
 
 
-The Game 12th commit 9/7/2015  12:32AM
+The Game 12th update 9/7/2015  12:32AM
 
 //Summary
 
 Added static class called 'World' to Engine project. Added 4 const static readonly Lists of Type Item, Monster, Quest, & Location. Added 24 const ints (10 Item Id's, 3 Monster Id's, 2 Quest Id's, 9 Location Id's. Added default constructor to 'World' class which takes no paramaters, & has 4 methods in the body. PopulateItems(), PopulateMonsters(), PopulateQuests(), PopulateLocations(). Completed PopulateItems() which takes in zero parameters & populates our static readonly 'List<Item> Items' with 7 Items, 2 Weapons, & 1 HealingPotion. Commited & updatfed the README.txt
 
 
-The Game 13th commit 9/7/2015   1:27AM
+The Game 13th update 9/7/2015   1:27AM
 
 //Summary
 
 Added PopulateMonsters() to World.cs which returns void & initalizes 3 Monster objects ("rat", "snake", "giant spider"). Each monster has a LootTable (List <LootItem>) with 2 items per monster. Added a static ItemByID() which return an Item if the paramater passed in is == to one of the public const item variables (int) declared in the beginning of the 'World.cs' else it returns null. Commited & updated the README.txt
 
 
-The Game 14th commit 9/7/2015  2:00AM
+The Game 14th update 9/7/2015  2:00AM
 
 //Summary
 
 Added PopulateQuests() to World.cs which returns void & initalizes 2 Quest objects / data types (clearAlchemistGarden, clearFarmersField). Each quest has a QuestCompletion property which is a List<QuestCompletionItem>. Items are Added to the list by calling the ItemByID method which returns an Item if the item is ==  to one of the item (int) variables declared int the beginning of the 'World.cs' else it returns null. Uncommented the PopulateQuests() in the body of the World constructor. Built the solution. Commited & updated the README.txt
 
 
-The Game 15th commit 9/7/2015 3:35AM
+The Game 15th update 9/7/2015 3:35AM
 
 //Summary
 
 Added implemantation details for the 4th method PopulateLocations(). Initalized 9 locations and assigned their default values. Linked loctions together (explicitly defining thier N,S,E,W relationships). Added two static methods 'MonsterById' & 'QuestById' that mirror the ItemById(). Both accept an int id and if the id passed in is == to one of the monster or quest id variables declared in the beginning of the World.cs a MOnster or Quest object is returned (respectivly). Added each location to the Location collection. Uncommented the PopulateLocations() in the body of the World constructor, built project successfully. Commited & updated the README.txt
 
 
-The Game 16th commit 9/7/2015 4:08PM
+The Game 16th update 9/7/2015 4:08PM
 
 //Summary
 
 Updated the UI added the following controls 1 Lable, 2 ComboBoxes, 6 Button controls, 2 RichTextBoxes, 2 DataGridViews. Changed some of the control names and locations on the UI. Built the solution. Commited & updated the README.txt
 
 
-The Game 17th commit 9/7/2015 9:50PM - 9/8/2015  10:49AM
+The Game 17th uodate 9/7/2015 9:50PM - 9/8/2015  10:49AM
 
 //Summary
 
@@ -147,10 +147,26 @@ Created button events for each button control in the UI, added a WorkBench class
 
 
 
-The Game 18th commit 9/8/2015 11:37AM
+The Game 18th update 9/8/2015 11:37AM
 
 //Summary
 
-Added two if statements in the WorkBook.cs. One simple (single condition to be evaluated) one complex  (multiple conditions to be evaluated) The order of presidence. Conditions are evaluated in order from the innermost (parentheses) to the outermost. With || either condition can evaluate true in order for the statement as a whole to evaluate true. With && both conditions must evaluate true in order for the statement as a whole to evaluate true.
+Added two if statements in the WorkBench.cs. One simple (single condition to be evaluated) one complex  (multiple conditions to be evaluated) note the order of presidence. Conditions are evaluated in order from the innermost (parentheses) to the outermost. With || either condition can evaluate true in order for the statement as a whole to evaluate true. With && both conditions must evaluate true in order for the statement as a whole to evaluate true. 
+
+
+
+The Game 19th update 9/8/ 2015 2:55PM
+
+//Summary
+
+Added a sample method for possible playerHp calculations to WorkBench.cs. ComputePlayerLevel() is only to serve as an example for executing multiple evaluations in a particular scope. To expand on that example added a second ComputePlayerLevel() and added a switch statement to clean up the code. *note the LACK of a break statement in the switch statement for every case. Since this method returns an int we have to return an integer per case. Return returns the flow of control out of the switch statement (same as break, anything after return statement would be unreachable code). Commited & updated the README.txt
+
+
+
+The Game 20th update 9/8/2015 3:02PM
+
+//Summary
+
+
 
 
