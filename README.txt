@@ -163,10 +163,25 @@ Added a sample method for possible playerHp calculations to WorkBench.cs. Comput
 
 
 
-The Game 20th update 9/8/2015 3:02PM
+The Game 20th update 9/8/2015 3:47PM
 
 //Summary
 
+Added another sample method to WorkBench.cs called Calculate average. Method overview
+-generate a list that contains 3 doubles
+-declare two double variables (initalized to 0) 
+-one variable to hold the number of itterations required to cycle through list
+-one variable to hold the combined total of each item in the list
+-manually perform average calculations
 
+-Linq statement that performs these tasks in a single line of code. (sexy)
+
+
+
+The Game 21st update 9/8/2015
+
+//Summary
+
+ 
 
 
