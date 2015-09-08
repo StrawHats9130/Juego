@@ -132,9 +132,12 @@ The Game 15th commit 9/7/2015 3:35AM
 Added implemantation details for the 4th method PopulateLocations(). Initalized 9 locations and assigned their default values. Linked loctions together (explicitly defining thier N,S,E,W relationships). Added two static methods 'MonsterById' & 'QuestById' that mirror the ItemById(). Both accept an int id and if the id passed in is == to one of the monster or quest id variables declared in the beginning of the World.cs a MOnster or Quest object is returned (respectivly). Added each location to the Location collection. Uncommented the PopulateLocations() in the body of the World constructor, built project successfully. Commited & updated the README.txt
 
 
-The Game 16th commit 9/7/2015
+The Game 16th commit 9/7/2015 4:08PM
 
 //Summary
 
+Updated the UI added the following controls 1 Lable, 2 ComboBoxes, 6 Button controls, 2 RichTextBoxes, 2 DataGridViews. Changed some of the control names and locations on the UI. Built the solution. Commited & updated the README.txt
+
+The Game 17th commit 9/7/2015 9:50PM
 
 
