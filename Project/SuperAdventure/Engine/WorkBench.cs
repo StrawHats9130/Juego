@@ -122,5 +122,28 @@ namespace Engine
            }
        }
 
+       public void CalculateAverage()
+       {
+        //Create and populate the list of numbers
+           List<double> values = new List<double>();
+
+           values.Add(1);
+           values.Add(5);
+           values.Add(21);
+
+           double total = 0;  //Holds value that is addded TO in every itteration
+           double counter = 0;  //Holds value that represents total itterations of loop (how many numbers in collection)
+
+           foreach (double value in values)
+           {
+               total += value; 
+               counter = (counter + 1);
+           }
+
+           double average = (total / counter);  //Manually calculating average
+
+           double linqAverage = values.Average(); //Using Linq to calculate average (has a special Method to do this)
+       }
+
     }
 }
