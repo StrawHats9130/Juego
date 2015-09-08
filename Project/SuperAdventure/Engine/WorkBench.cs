@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -47,6 +48,29 @@ namespace Engine
                functionLevelVariableOne = 4;
                int innerVariableOne;
            }
+
        }
+
+       //Example of a simple if statment / evaluation
+       public bool IsPlayerStillActiveSimple(int currentHitPoints)
+       {
+           if (currentHitPoints > 0) //Checking parameter passed in
+           {
+               return true;
+           }
+            return false;
+       }
+
+       //Example of a complex if statement / evaluations
+       //Parenthesis denote order of operations (work from innermost set to the outermost)
+       public bool IsPlayerStillActiveComplex(int currentHitPoints, bool hasResurrectionRing)
+       {
+           if ((currentHitPoints > 0) || ((currentHitPoints ==0) && hasResurrectionRing))
+           {
+               return true;
+           }
+           return false;
+       }
+
     }
 }
