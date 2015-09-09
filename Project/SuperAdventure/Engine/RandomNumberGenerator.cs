@@ -31,8 +31,12 @@ namespace Engine
 
             double asciiValueRandomCharacter = Convert.ToDouble(randomNumber[0]);
 
+            //Using Math.Max & supbtracting 0.00000000001,
+            //to ensure "multiplier" will always be between 0.0 and 99999999999
+            //Otherwise, it's possible for it to be "1", which causes rounding issues
             double multiplier = Math.Max(0, (asciiValueRandomCharacter/255d) - 0.00000000001d);
 
+            //We need to add one to the range, to allow for the rounding done with Math.Floor
             int range = maximumValue - minimumValue + 1;
 
             double randomValueInRange = Math.Floor(multiplier*range);
