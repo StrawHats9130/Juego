@@ -178,10 +178,12 @@ Added another sample method to WorkBench.cs called Calculate average. Method ove
 
 
 
-The Game 21st update 9/8/2015
+The Game 21st update 9/8/2015 12:24
 
 //Summary
 
- 
+ Began adding code to the Adventure.cs for player movement, & all conditional checks. (healing player checking location requirements, inventory items for quest completion items. The code looks messy and is going to be hard to follow) after code is working it will need to be refactored to follow single responsibility principle. (SOLID)
+
+
 
 
