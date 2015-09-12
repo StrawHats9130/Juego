@@ -82,7 +82,7 @@ namespace SuperAdventure
                     //Display the message stop attempting player movement
                     rtbMessages.Text += string.Format("You must have a {0} to " +
                                                       "to enter this location ",
-                        newLocation.
+                            newLocation.
                             ItemRequiredToEnterHere.
                             Name);
                     return;
