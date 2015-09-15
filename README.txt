@@ -228,9 +228,14 @@ Refresh the cboPotions ComboBox in the UI
 The code is however very fragile & comprised of a plethora of nested if statements & foreach loops. Succesfully built the project & updated the README.txt
 
 
-The Game 23 update  9/15/2015 
+The Game 23rd update  9/15/2015 
 
 Summary
 
 Completed lesson 16.2 Refactoring the player movement function, abstraced some of the business logic to respective classes (SOC principle) 
 Built the project, commited & updated README
+
+
+The Game 24th update 9/15/2015 12:23PM
+
+Added the business logic for the btnUseWeapon_Click event... I still believe these mothods are a little to long and responsible for to many things... adding weapons monster fight / conditional checks moving the player updating the UI etc
